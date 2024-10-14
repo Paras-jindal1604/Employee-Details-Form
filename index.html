@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+</head>
+<body>
+    
+    <h1>Employee Details Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="fname" id="name" placeholder="Enter your name" required />
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com" required/>
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required />
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="Gender" id="male" value="Male" />
+        <label for="male">Male</label>
+
+        <input type="radio" name="Gender" id="female" value="Female" />
+        <label for="female">Female</label>
+        <br><br>
+
+        <label for="jobtitle">Job Title:</label>
+        <input type="text" id="jobtitle" name="jobtitle" placeholder="Enter job title" required />
+        <br><br>
+
+        <label for="dept">Department:</label>
+        <select name="department" id="dept" required>
+            <option value="" disabled selected>Select your department</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Accounts">Accounts</option>
+            <option value="Sales">Sales</option>
+            <option value="IT">IT</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+
+</body>
+</html>
+
+
